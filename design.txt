@@ -1,0 +1,18 @@
+Orange: Bc5235
+
+Black is black
+
+https://www.google.com/fonts#UsePlace:use/Collection:Knewave
+
+Second header type is impact regular again in all caps
+
+Third header type is knewave regular again, sometimes all caps
+
+Links should be orange (Bc5235)
+
+
+ videos should just be added one per line as far down the page as needed before the footer
+
+Please add the code invisions link to the second page footer as well
+
+Let me know if you need the text in a different format and if you need anything larger. Hmm. You're going to want a larger logo.

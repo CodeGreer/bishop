@@ -1,0 +1,155 @@
+/* All of your setup and non media query CSS */
+
+@font-face {
+    font-family: Impact;
+    src: url(../fonts/impact.ttf);
+}
+
+@font-face {
+    font-family: BellGothic;
+    src: url(../fonts/BellGothicStd-Bold.otf);
+}
+
+html {
+    font: normal 100% 'BellGothic', sans-serif;
+    height: auto;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.625; /* 26px */
+    height: auto;
+    background-image: url(../images/1-Bishop-background_01_02.png);
+}
+
+#container {
+    max-width: 105em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 20%;
+}
+
+/* Header */
+
+#header {
+    max-width: 105em;
+    width: 100%;
+    margin: 0 auto;
+    height: auto; 
+    overflow: hidden;
+}
+
+/* Menu */ 
+
+#menu {
+    max-width: 105em;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+} 
+
+.menu_background {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 20%;
+}
+
+.star {
+    max-width: 100%;
+    width: 12%;
+}
+
+.training {
+    position: absolute;
+    top: 17%;
+    left: 28%; 
+}
+
+.packages {
+    position: absolute;
+    top: 14%;
+    left: 57%; 
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 27%; 
+}
+
+.videos {
+    position: absolute;
+    top: 54%;
+    left: 48%; 
+}
+
+.resources {
+    position: absolute;
+    top: 46%;
+    left: 65%;
+}
+
+/* Main */
+
+h1 {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 20%;
+    font-size: 2em;
+}
+
+.knewave {
+    font-family: 'Knewave', cursive;
+}
+
+.impact {
+    font-family: 'impact';
+}
+
+.bellgothic {
+    font-family: 'BellGothic';
+}
+
+.orange {
+    color: #BC5235;
+}
+
+.center {
+    text-align: center;
+}
+
+#training_div {
+    max-width: 105em;
+    width: 60%;
+    margin: 0 20%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+#training_div p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+/* Footer */ 
+
+#push {
+    max-width: 105em;
+    width: 100%;
+    height: 0;
+    margin: 0 auto;
+}
+    
+#footer{
+    max-width: 105em;
+    width: 100%;
+    height: 5em;
+    margin: 0 auto;
+    overflow: hidden;
+}
