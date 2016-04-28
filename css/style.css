@@ -19,22 +19,29 @@ body {
     font-size: 100%;
     line-height: 1.625; /* 26px */
     height: auto;
-    /* background-image: url(../images/1-Bishop-background_01_02.png); */
+}
+
+#background_layer {
+    position: relative;
+    z-index: 5;
+    background-image: url(../images/1-Bishop-background_01_02.png);
+    height: 250em;
 }
 
 #container {
     max-width: 105em;
     width: 100%;
     margin: 0 auto;
-    position: relative;
-    z-index: 0;
-   
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .logo {
     max-width: 100%;
     width: 60%;
-    margin: 0 20%;
+    margin: 2% 20% 0 20%;
+    position: relative;
     z-index: 10;
 }
 
@@ -46,7 +53,6 @@ body {
     margin: 0 auto;
     height: auto; 
     overflow: hidden;
-    background-image: url(../images/1-Bishop-background_01_02.png);
 }
 
 /* Menu */ 
@@ -63,8 +69,6 @@ body {
     width: 60%;
     height: auto;
     margin: 0 20%;
-    position: relative;
-    z-index: -10;
 }
 
 .star {
@@ -109,7 +113,6 @@ body {
     max-width: 105em;
     width: 100%;
     margin: 0 auto;
-    background-image: url(../images/1-Bishop-background_01_02.png);
 }
 
 h1 {
@@ -117,6 +120,8 @@ h1 {
     width: 60%;
     margin: 0 20%;
     font-size: 2em;
+    position: relative;
+    z-index: 10;
 }
 
 .knewave {
@@ -144,8 +149,9 @@ h1 {
     margin: -1% 20% 0 20%;
     height: auto;
     border-style: solid; 
-    border-width: 90px 90px 90px 90px; 
-    border-image: url(../images/Text-Bubble_03.gif) 185 185 185 185 fill;  
+    border-width: 110px 100px 110px 100px; 
+    border-image: url(../images/Text-Bubble_03.gif) 185 155 185 155 fill;  
+    
 }
 
 .boxes_text {
@@ -154,7 +160,9 @@ h1 {
     background-color: #FFFFFF;
     margin: -11% 0% -11% -11%;
     border-radius: 90px;
-    padding: 4%;
+    padding: 4%; 
+    position: relative;
+    z-index: 10;
 }
 
 .contact {
@@ -162,17 +170,17 @@ h1 {
     margin: -1% 20% 0 20%;
     height: auto;
     border-style: solid; 
-    border-width: 80px 80px 80px 80px; 
-    border-image: url(../images/Text-Bubble_03.gif) 240 240 240 240 fill;
+    border-width: 90px 80px 90px 80px; 
+    border-image: url(../images/Text-Bubble_03.gif) 245 240 245 240 fill;
 }
 
 .contact_text {
     width: 108%;
     height: auto;
     background-color: #FFFFFF;
-    margin: -10% 0 -11% -8%;
-    border-radius: 40px;
-    padding: 6% 4%;
+    margin: -10% 0 -11% -10%;
+    border-radius: 60px;
+    padding: 6%;
 }
 
 .boxes_text p {
@@ -197,15 +205,7 @@ h1 {
     margin: 0 auto;
     padding: 2% 0;
     overflow: hidden;
-    background-image: url(../images/1-Bishop-background_01_02.png);
-    
-}
-
-.cilogo {
-    max-width: 100%;
-    width: 10%;
-    margin-left: 20%;
-    float: left;
+    /* background-image: url(../images/1-Bishop-background_01_02.png); */
 }
 
 .social {
@@ -213,11 +213,24 @@ h1 {
     width: 60%;
     margin: 0 20%;
     text-align: center;
-    
 }
 
 .social li {
     width: 20%;
     list-style-type: none;
     display: inline-block;
+}
+
+.footer_text {
+    max-width: 100%;
+    width: 60%;
+    margin: 2% 20%;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: .2em solid #BC5235;
+    
 }
