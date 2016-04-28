@@ -19,19 +19,23 @@ body {
     font-size: 100%;
     line-height: 1.625; /* 26px */
     height: auto;
-    background-image: url(../images/1-Bishop-background_01_02.png);
+    /* background-image: url(../images/1-Bishop-background_01_02.png); */
 }
 
 #container {
     max-width: 105em;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    z-index: 0;
+   
 }
 
 .logo {
     max-width: 100%;
     width: 60%;
     margin: 0 20%;
+    z-index: 10;
 }
 
 /* Header */
@@ -42,6 +46,7 @@ body {
     margin: 0 auto;
     height: auto; 
     overflow: hidden;
+    background-image: url(../images/1-Bishop-background_01_02.png);
 }
 
 /* Menu */ 
@@ -51,17 +56,21 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-} 
+}
 
 .menu_background {
     max-width: 100%;
     width: 60%;
+    height: auto;
     margin: 0 20%;
+    position: relative;
+    z-index: -10;
 }
 
 .star {
     max-width: 100%;
     width: 12%;
+    z-index: 10;
 }
 
 .training {
@@ -96,6 +105,13 @@ body {
 
 /* Main */
 
+#main {
+    max-width: 105em;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/1-Bishop-background_01_02.png);
+}
+
 h1 {
     max-width: 100%;
     width: 60%;
@@ -123,17 +139,45 @@ h1 {
     text-align: center;
 }
 
-#training_div {
+.boxes {
     max-width: 105em;
-    width: 60%;
-    margin: 0 20%;
+    margin: -1% 20% 0 20%;
     height: auto;
-    background-color: #FFFFFF;
+    border-style: solid; 
+    border-width: 90px 90px 90px 90px; 
+    border-image: url(../images/Text-Bubble_03.gif) 185 185 185 185 fill;  
 }
 
-#training_div p {
+.boxes_text {
+    width: 114%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: -11% 0% -11% -11%;
+    border-radius: 90px;
+    padding: 4%;
+}
+
+.contact {
+    max-width: 105em;
+    margin: -1% 20% 0 20%;
+    height: auto;
+    border-style: solid; 
+    border-width: 80px 80px 80px 80px; 
+    border-image: url(../images/Text-Bubble_03.gif) 240 240 240 240 fill;
+}
+
+.contact_text {
+    width: 108%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin: -10% 0 -11% -8%;
+    border-radius: 40px;
+    padding: 6% 4%;
+}
+
+.boxes_text p {
     width: 90%;
-    margin: 0 5%;
+    margin: 2% 4%;
 }
 
 
@@ -149,7 +193,31 @@ h1 {
 #footer{
     max-width: 105em;
     width: 100%;
-    height: 5em;
+    height: auto;
     margin: 0 auto;
+    padding: 2% 0;
     overflow: hidden;
+    background-image: url(../images/1-Bishop-background_01_02.png);
+    
+}
+
+.cilogo {
+    max-width: 100%;
+    width: 10%;
+    margin-left: 20%;
+    float: left;
+}
+
+.social {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+    
+}
+
+.social li {
+    width: 20%;
+    list-style-type: none;
+    display: inline-block;
 }
