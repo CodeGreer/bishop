@@ -117,8 +117,8 @@ body {
 } 
     
 .logo {
-    width: 90%;
-    margin: 2% 5% 0 5%;
+    width: 98%;
+    margin: 2% 1% 0 1%;
 }    
     
 /* Header */
@@ -134,8 +134,8 @@ body {
 /* Menu */ 
 
 .menu_background {
-    width: 90%;
-    margin: 0 5%;
+    width: 98%;
+    margin: 0 1%;
 }
 
 .star {
@@ -176,26 +176,18 @@ h1 {
 }    
 
 .boxes {
-    margin: -1% 5% 0 5%;
+    margin: 0 1%;    
 }
 
 .contact {
-    margin: -1% 5% 0 5%;
-}
-
-.contact_text {
-    width: 108%;
-    height: auto;
-    background-color: #FFFFFF;
-    margin: -10% 0 -11% -10%;
-    border-radius: 3.750em;
-    padding: 6%;
+    margin: 0 1%;
 }
 
 .boxes_text p {
-    width: 90%;
-    margin: 2% 4%;
-}  
+    font-size: 1.5em;
+    width: 96%;
+    margin: 2%;
+}
     
 /* Footer */    
     
@@ -222,7 +214,7 @@ body {
 @media only screen and (max-width: 40em) {
     
 body {
-    font-size: 85%;
+    font-size: 80%;
 }      
 }
 
@@ -238,8 +230,33 @@ body {
 @media only screen and (max-width: 30em) {
     
 body {
-    font-size: 65%;
-}        
+    font-size: 70%;
+}   
+    
+/* Main */
+    
+.boxes {
+    margin: 0%;
+    border-width: 4.875em 4.250em 4.875em 4.250em; 
+}
+
+.boxes_text {
+    margin: -5% 0 -5% -9%;
+    padding: 2%; 
+}
+    
+.contact {
+    margin: 0;
+}
+
+.contact_text {
+    margin: -10% 0 -11% -6%;
+}
+
+.boxes_text p {
+     width: 90%;
+     margin: 5%;
+}     
 }
 
 /*** Up to 400px ***/
