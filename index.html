@@ -28,18 +28,19 @@
     <link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
     
 <!-- Javascript -->  
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     
 </head>
   
 <body> 
     
-<!-- start my code -->
+<!-- start my code --> 
+<div id="container">  
     
-
-<!-- Container -->  
-<div id="background_layer"></div>    
-<div id="container">
+<div class="background_layer"></div> 
+    
+<!-- Content -->      
+<div class="content">
 
 <!-- Header -->   
     <div id="header">     
@@ -47,13 +48,13 @@
   
 <!-- Menu -->  
         <div id="menu">
-                <img class="menu_background" alt="menu background is a basketball court" src="images/3-Bishop-court.png">
+            <img class="menu_background" alt="menu background is a basketball court" src="images/3-Bishop-court.png">
 
-                <img class="training star" alt="Training" src="images/7-Bishop-menu-training.png">
-                <img class="packages star" alt="Packages" src="images/7-Bishop-menu-packages.png">
-                <img class="about star" alt="About Us" src="images/7-Bishop-menu-AboutUs.png">
-                <img class="videos star" alt="Videos" src="images/7-Bishop-menu-videos.png">
-                <img class="resources star" alt="Resources" src="images/7-Bishop-menu-resources.png">
+            <img class="training star" alt="Training" src="images/7-Bishop-menu-training.png">
+            <img class="packages star" alt="Packages" src="images/7-Bishop-menu-packages.png">
+            <img class="about star" alt="About Us" src="images/7-Bishop-menu-AboutUs.png">
+            <img class="videos star" alt="Videos" src="images/7-Bishop-menu-videos.png">
+            <img class="resources star" alt="Resources" src="images/7-Bishop-menu-resources.png">
         
         </div>
 <!-- End Menu -->
@@ -126,12 +127,8 @@
     </div>   
 <!-- End Main --> 
     
-</div>
-<!-- End Container -->    
-    
 <div id="push"></div>
- 
-        
+    
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
@@ -140,13 +137,24 @@
     </ul>
     <p class="footer_text knewave">Site Design by <a href="http://invisionsdesign.com/">In Visions Design</a> and Development by <a href="http://codegreer.com/">Code Greer</a></p>   
 </div>  
-<!-- End Footer -->  
+<!-- End Footer -->     
     
-<!-- Javascript -->  
+</div>
+<!-- End Content -->    
+    
+</div>      
+<!-- End Container -->     
+    
+<!-- Javascript --> 
     
     <script>
-        
+     $(window).load(function() {
+        var height = Math.max($(".background_layer").height(), $(".content").height());
+        $(".background_layer").height(height);
+        $(".content").height(height);
+     });
     </script>
+  
         
 <!-- End Javascript -->          
     
