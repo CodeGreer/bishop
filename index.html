@@ -29,6 +29,7 @@
     
 <!-- Javascript -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
     
 </head>
   
@@ -50,12 +51,15 @@
         <div id="menu">
             <img class="menu_background" alt="menu background is a basketball court" src="images/3-Bishop-court.png">
 
-            <img class="training star" alt="Training" src="images/7-Bishop-menu-training.png">
-            <img class="packages star" alt="Packages" src="images/7-Bishop-menu-packages.png">
-            <img class="about star" alt="About Us" src="images/7-Bishop-menu-AboutUs.png">
-            <img class="videos star" alt="Videos" src="images/7-Bishop-menu-videos.png">
-            <img class="resources star" alt="Resources" src="images/7-Bishop-menu-resources.png">
-        
+            <a data-scroll href="#training"><img class="training star" alt="Training" src="images/7-Bishop-menu-training.png"></a>
+            
+            <a href="packages.html"><img class="packages star" alt="Packages" src="images/7-Bishop-menu-packages.png"></a>
+            
+            <a data-scroll href="#about"><img class="about star" alt="About Us" src="images/7-Bishop-menu-AboutUs.png"></a>
+            
+            <a data-scroll href="#videos"><img class="videos star" alt="Videos" src="images/7-Bishop-menu-videos.png"></a>
+            
+            <a data-scroll href="#resources"><img class="resources star" alt="Resources" src="images/7-Bishop-menu-resources.png"></a>
         </div>
 <!-- End Menu -->
             
@@ -65,7 +69,7 @@
 <!-- Main -->     
     <div id="main">
         <br>
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Training</span></h1>
+        <h1 id="training"><span class="knewave">GROUND UP</span> <span class="impact orange">Training</span></h1>
         <div class="boxes">
             <div class="boxes_text">
                 <p>Ground Up Training has provided training services for over 30 years. We have worked with basketball players, track athletes, general fitness clients, and youth ages 10 and up.</p>
@@ -81,7 +85,7 @@
         </div>
         <br><br>
         
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">About Us</span></h1>
+        <h1 id="about"><span class="knewave">GROUND UP</span> <span class="impact orange">About Us</span></h1>
         <div class="boxes">
             <div class="boxes_text">
                 <p>Bruce Bishop is certified in Personal Training, CPR and First aid and has knowledge of how to treat and prevent minor and major sports related injuries. He is very passionate about teaching others, mainly our youth about the importance of exercise, conditioning, health and nutrition, helping in the fight against childhood obesity. Bruce Bishop started a basketball camp in 1998, which started with 4 kids who wanted to learn how to play basketball and it slowly grew to over 75 kids, boys and girls ages 10-17, a staff and volunteer base of 10 which received grants and donations for several years. The camp had it's final year in the summer of 2008.</p>
@@ -93,7 +97,7 @@
         </div>
         <br><br>
         
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Contact Us</span></h1>
+        <h1 id="contact"><span class="knewave">GROUND UP</span> <span class="impact orange">Contact Us</span></h1>
         <div class="boxes contact">
             <div class="boxes_text contact_text">
                 <p>Call: 917-224-5987</p>
@@ -101,7 +105,7 @@
         </div>
         <br><br>
         
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Resources</span></h1>
+        <h1 id="resources"><span class="knewave">GROUND UP</span> <span class="impact orange">Resources</span></h1>
         <div class="boxes">
             <div class="boxes_text">
                 <p class="knewave">Snack Tips:</p>
@@ -121,7 +125,19 @@
         </div>
         <br><br>
     
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Videos</span></h1>
+        <h1 id="videos"><span class="knewave">GROUND UP</span> <span class="impact orange">Videos</span></h1>
+        <div class="boxes">
+            <div class="boxes_text">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SsnW0H1XlAA" frameborder="0" allowfullscreen></iframe>
+                
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tI0C79bCUgM" frameborder="0" allowfullscreen></iframe>
+                
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hGVPV-mXsL8" frameborder="0" allowfullscreen></iframe>
+            </div>       
+        </div>
+        <br><br>
         
         
     </div>   
@@ -133,7 +149,7 @@
 <div id="footer">
     <ul class="social">
         <li><img class="social" alt="Facebook" src="images/8-Bishop-Icons-FB.png"></li>
-        <li><img class="social" alt="YouTube" src="images/8-Bishop-Icons-YouTube.png"></li>
+        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="YouTube" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Site Design by <a href="http://invisionsdesign.com/">In Visions Design</a> and Development by <a href="http://codegreer.com/">Code Greer</a></p>   
 </div>  
@@ -154,6 +170,22 @@
         $(".content").height(height);
      });
     </script>
+    
+<!-- SmoothScroll -->    
+    <script>
+        smoothScroll.init({
+            speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+            offset: 0,
+            updateURL: false,
+            easing: 'easeInOutCubic', // Easing pattern to use
+            callbackBefore: function ( toggle, anchor ) {
+            },
+            callbackAfter: function ( toggle, anchor ) {
+                $('[data-scroll]').removeClass('active');
+                $(toggle).addClass('active');
+            }
+            });
+    </script>    
   
         
 <!-- End Javascript -->          
