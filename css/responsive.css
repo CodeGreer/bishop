@@ -223,7 +223,52 @@ body {
   
 body {
     font-size: 75%;
-}        
+} 
+    
+.star {
+    width: 30%;
+}  
+    
+.training {
+    top: 5%;
+    left: 8%; 
+}
+
+.packages {
+    top: 3%;
+    left: 58%; 
+}
+
+.about {
+    top: 50%;
+    left: 12%; 
+}
+
+.videos {
+    top: 28%;
+    left: 35%; 
+}
+
+.resources {
+    top: 45%;
+    left: 62%;
+}    
+   
+#desktop_videos {
+    display: none;
+}
+    
+#mobile_videos {
+    display: block;
+} 
+    
+.social li {
+    width: 30%;
+} 
+    
+.footer_text {
+    font-size: 1.4em;
+}    
 }
 
 /*** Up to 480px ***/
@@ -263,7 +308,7 @@ body {
 @media only screen and (max-width: 25em) {
 
 body {
-    font-size: 60%;
+    font-size: 70%;
 }   
 }
 
@@ -271,16 +316,41 @@ body {
 @media only screen and (max-width: 21em) {
    
 body {
-    font-size: 50%;
-}  
+    font-size: 70%;
+} 
+    
+.boxes {
+    border-width: 4.675em 4.050em 4.675em 4.050em; 
+}
+
+.boxes_text {
+    margin: -5% 0 -5% -11%;
+    padding: 4%; 
+}
+
+.contact_text {
+    margin: -10% 0 -11% -8%;
+}        
+    
+.boxes_text iframe {
+    padding: 6% 0;
+} 
+    
+.social li {
+    width: 40%;
+}    
 }
 
 /*** Up to 256px ***/
 @media only screen and (max-width: 16em) {
    
 body {
-    font-size: 40%;
-}   
+    font-size: 55%;
+} 
+    
+.boxes_text iframe {
+    padding: 8% 0;
+}     
 }
 
 /*** Up to 224px ***/
