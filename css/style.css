@@ -12,7 +12,7 @@
 
 html {
     font: normal 100% 'BellGothic', sans-serif;
-    height: auto;
+    height: 100%;
 }
 
 body {
@@ -30,20 +30,16 @@ body {
 
 .background_layer {
     width: 100%;
-    float: left;
-    position: relative;
+    height: 100%;
+    position: absolute;
     z-index: 5;
     background-image: url(../images/1-Bishop-background_01_02.png);
-
 }
 
 .content {
     max-width: 105em;
     width: 100%;
     margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 0;
 } 
 
 .logo {
