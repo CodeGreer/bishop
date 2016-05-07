@@ -252,6 +252,12 @@ body {
 .resources {
     top: 45%;
     left: 62%;
+}   
+    
+.bruce {
+    width: 60%;
+    margin:  2% 20%;
+    float: none;
 }    
    
 #desktop_videos {

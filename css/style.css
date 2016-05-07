@@ -134,6 +134,11 @@ h1 {
     z-index: 10;
 }
 
+.top {
+    font-size: 1.2em;
+    text-align: center;
+}
+
 .knewave {
     font-family: 'Knewave', cursive;
 }
@@ -175,6 +180,13 @@ h1 {
     text-align: justify;
 }
 
+.bruce {
+    max-width: 100%;
+    width: 30%;
+    margin:  2% 4% 0 4%;
+    float: right;
+}
+
 #desktop_videos {
     display: block;
 }
@@ -190,7 +202,7 @@ h1 {
     padding: 4% 0;
 }
 
-.contact {
+/* .contact {
     max-width: 105em;
     margin: -1% 20% 0 20%;
     height: auto;
@@ -203,10 +215,10 @@ h1 {
     width: 108%;
     height: auto;
     background-color: #FFFFFF;
-    margin: -10% 0 -11% -10%;
+    margin: -10% 0 -10% -10%;
     border-radius: 3.750em;
     padding: 6%;
-}
+} */
 
 .boxes_text p {
     font-size: 1.15em;
