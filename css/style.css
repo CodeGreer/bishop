@@ -36,6 +36,21 @@ body {
     background-image: url(../images/1-Bishop-background_01_02.png);
 }
 
+.contactus {
+    font-size: 1.5em;
+    z-index: 10;
+    position: relative;
+}
+
+.right {
+    text-align: right;
+    margin-right: 15%;
+}
+
+p.black > a {
+    color: #000000;
+}
+
 .content {
     max-width: 105em;
     width: 100%;
@@ -157,6 +172,10 @@ h1 {
 
 .center {
     text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .boxes {
