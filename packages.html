@@ -18,6 +18,7 @@
     
 <!-- Javascript -->  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
     
 </head>
   
@@ -45,7 +46,7 @@
         <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Training</span></h1>
         <div class="boxes">
             <div class="boxes_text">
-                <p class="impact center">We use the Vertimax Training System...proven to improve your game!! <br>Used on individuals, groups and teams. <a href="#">See below</a> for pricing.</p>
+                <p class="impact center">We use the Vertimax Training System...proven to improve your game!! <br>Used on individuals, groups and teams. <a data-scroll href="#anchor">See below</a> for pricing.</p>
 
                 <br>
                 
@@ -64,7 +65,7 @@
                 <p>Having workouts for a month or more helps players gain trust that their bodies are being taken care of.</p>  
                 <br>
                 
-                <p class="impact">PACKAGES ARE AS FOLLOWS:</p>
+                <p id="anchor" class="impact">PACKAGES ARE AS FOLLOWS:</p>
                 <p>1 1/2 hour private lesson: $75 per lesson</p>
 
                 <p><span class="knewave">Option 1:</span>  Basic Fundamental Skill Package<br>Includes: Shooting, Dribbling, Passing, and Defense<br>$650 (8 sessions -- 1 1/2 hr long --2-3 days a week)</p>
@@ -81,7 +82,10 @@
                 <p><span class="knewave">Semi-Private</span> -- 2 - 4 kids<br>1 1/2 hour semi-private lesson: $100 total</p>
 
                 <p><span class="knewave">Team Training</span><br>1 1/2 hour team training: $15 per person (10 person minimum)</p>
+                
+                <p><span class="knewave">Full time training package</span>: (in house) Two a days at a gym consisting of weight training, strength and conditioning, core work, and on court skill set training, personalized meal plan, meals prepared and/or delivered, and IQ increase by watching game film.</p>
 
+                <br>
                 <p><span class="knewave">PERSONAL TRAINING</span> prices will be discussed during initial consultation.  PAR- Questionnaire (Physical, activity, readiness) This test measures the minimal fitness for beginners to start a moderate intensity exercise program.</p>
 
                 <p class="impact center">Fitness Benefits - Better appearance, improved performance, good health, and a better quality of life.</p>
@@ -112,7 +116,21 @@
 <!-- End Container -->     
     
 <!-- Javascript -->
-        
+    <!-- SmoothScroll -->    
+    <script>
+        smoothScroll.init({
+            speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+            offset: 0,
+            updateURL: false,
+            easing: 'easeInOutCubic', // Easing pattern to use
+            callbackBefore: function ( toggle, anchor ) {
+            },
+            callbackAfter: function ( toggle, anchor ) {
+                $('[data-scroll]').removeClass('active');
+                $(toggle).addClass('active');
+            }
+            });
+    </script>          
 <!-- End Javascript -->          
     
 </body> 
