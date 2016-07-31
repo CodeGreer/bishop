@@ -1,3 +1,52 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
 /* All of your setup and non media query CSS */
 
 @font-face {
@@ -68,6 +117,10 @@ p.black > a {
 a {
     color: #Bc5235;
     text-decoration: none;
+}
+
+.rwd_break_880, .rwd_break_976, .rwd_break_1040 {
+    display: none;
 }
 
 /* Header */
@@ -170,7 +223,17 @@ h1 {
     color: #BC5235;
 }
 
-.center {
+.boxes_text > .center {
+    font-size: 1.25em;
+    width: 70%;
+    margin: 1% 15% 3% 15%;
+    text-align: center;
+}
+
+.boxes_text > .center_packages {
+    font-size: 1.15em;
+    width: 100%;
+    margin: 5% 0 3% 0;
     text-align: center;
 }
 
@@ -183,7 +246,7 @@ h1 {
     margin: -1% 20% 0 20%;
     height: auto;
     border-style: solid; 
-    border-width: 6.875em 6.250em 6.875em 6.250em; 
+    border-width: 6.075em 6.050em 6.075em 6.050em; 
     border-image: url(../images/Text-Bubble_03.gif) 185 155 185 155 fill;  
 }
 
@@ -298,5 +361,427 @@ h1 {
     text-decoration: none;
     color: #000000;
     border-bottom: .2em solid #BC5235;
+}
+
+
+/**** Mobile First Media Queries ****/
+
+
+/*** Up to 5200px 25% ***/
+@media only screen and (max-width: 325em) {
+  
+body {
+    font-size: 400%;
+}    
+}
+
+/*** Up to 3904px 33% ***/
+@media only screen and (max-width: 244em) {
     
+body {
+     font-size: 300.5%;
+}         
+}
+
+/*** Up to 2640px 50% ***/
+@media only screen and (max-width: 165em) {
+    
+body {
+     font-size: 200%;
+}   
+}
+
+/*** Up to 2000px 67% ***/
+@media only screen and (max-width: 125em) {
+    
+body {
+     font-size: 150.2%;
+}     
+}
+
+/*** Up to 1840px 75% ***/
+@media only screen and (max-width: 115em) {
+ 
+body {
+     font-size: 133.3%;
+}        
+}
+
+/*** Up to 1520px 90% ***/
+@media only screen and (max-width: 95em) {
+ 
+body {
+     font-size: 111.1%;
+}        
+}
+
+/*** Up to 1360px 100% ***/
+@media only screen and (max-width: 85em) {
+   
+body {
+    font-size: 100%;
+} 
+}
+    
+/*** Up to 1280px 100% ***/    
+@media only screen and (max-width: 80em) {
+    
+body {
+    font-size: 100%;
+} 
+}
+
+/*** Up to 1200px 110% ***/
+@media only screen and (max-width: 75em) {
+  
+body {
+    font-size: 100%;
+}   
+}
+
+/*** Up to 1120px ***/
+@media only screen and (max-width: 70em) {
+  
+body {
+    font-size: 100%;  
+} 
+    
+.boxes {
+    border-width: 5.475em 5.450em 5.475em 5.450em; 
+}    
+    
+.boxes_text > .center, .boxes_text > .center_packages {
+    font-size: 1.5em;
+    width: 90%;
+    margin: 5% 5% 3% 5%;
+}    
+}
+
+/*** Up to 1040px 125% ***/
+@media only screen and (max-width: 65em) {
+    
+body {
+     font-size: 95%;
+} 
+    
+.rwd_break_1040 {
+    display: inline;
+}    
+}
+
+/*** Up to 976px ***/
+@media only screen and (max-width: 61em) {
+  
+body {
+    font-size: 95%;
+} 
+    
+.rwd_break_976 {
+    display: inline;
+}    
+    
+.boxes {
+    border-width: 5.075em 5.050em 5.075em 5.050em; 
+}     
+}
+
+/*** Up to 880px 150% ***/
+@media only screen and (max-width: 55em) {
+  
+body {
+   font-size: 90%;
+}  
+    
+.rwd_break_880 {
+    display: inline;
+}
+}
+
+
+/************ Change Format ************/
+
+
+/*** Up to 800px 175% ***/
+@media only screen and (max-width: 50em) {
+ 
+body {
+    font-size: 77%;
+}     
+    
+.logo {
+    width: 98%;
+    margin: 2% 1% 0 1%;
+}    
+    
+/* Header */
+
+#header {
+    max-width: 105em;
+    width: 100%;
+    margin: 0 auto;
+    height: auto; 
+    overflow: hidden;
+}
+
+/* Menu */ 
+
+.menu_background {
+    width: 98%;
+    margin: 0 1%;
+}
+    
+.contactus {
+    font-size: 2em;
+    margin-bottom: 2%;
+}    
+
+.star {
+    width: 20%;
+}
+
+.training {
+    top: 10%;
+    left: 15%; 
+}
+
+.packages {
+    top: 7%;
+    left: 65%; 
+}
+
+.about {
+    top: 50%;
+    left: 10%; 
+}
+
+.videos {
+    top: 46%;
+    left: 40%; 
+}
+
+.resources {
+    top: 55%;
+    left: 67%;
+}  
+    
+/* Main */
+    
+h1 {
+    width: 90%;
+    margin: 0 5%;
+    text-align: center;
+}    
+
+.boxes {
+    margin: -1% 1% 0 1%;
+     border-width: 8.875em 8.850em 8.875em 8.850em;
+}
+
+.contact {
+    margin: 0 1%;
+}
+
+.boxes_text p {
+    font-size: 1.5em;
+    width: 96%;
+    margin: 2%;
+}
+    
+/* Footer */    
+    
+.social {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.footer_text {
+    width: 90%;
+    margin: 2% 5%;
+}   
+}
+
+/*** Up to 720px ***/
+@media only screen and (max-width: 45em) {
+ 
+body {
+    font-size: 90%;
+} 
+    
+.boxes {
+     border-width: 6.675em 6.650em 6.675em 6.650em;
+}     
+}
+
+/*** Up to 640px ***/
+@media only screen and (max-width: 40em) {
+    
+body {
+    font-size: 80%;
+}      
+}
+
+/*** Up to 560px ***/
+@media only screen and (max-width: 35em) {
+  
+body {
+    font-size: 80%;
+} 
+    
+.contactus {
+    font-size: 2.5em;
+    margin-bottom: 5%;
+}    
+    
+.star {
+    width: 30%;
+}  
+    
+.training {
+    top: 5%;
+    left: 8%; 
+}
+
+.packages {
+    top: 3%;
+    left: 58%; 
+}
+
+.about {
+    top: 50%;
+    left: 12%; 
+}
+
+.videos {
+    top: 28%;
+    left: 35%; 
+}
+
+.resources {
+    top: 45%;
+    left: 62%;
+}   
+    
+.boxes {
+     border-width: 6.075em 6.050em 6.075em 6.050em;
+}  
+    
+.bruce {
+    width: 60%;
+    margin:  2% 20%;
+    float: none;
+}    
+   
+#desktop_videos {
+    display: none;
+}
+    
+#mobile_videos {
+    display: block;
+    padding-top: 10%;
+} 
+    
+.social li {
+    width: 25%;
+} 
+    
+.footer_text {
+    font-size: 1em;
+}    
+}
+
+/*** Up to 480px ***/
+@media only screen and (max-width: 30em) {
+    
+body {
+    font-size: 78%;
+} 
+    
+/* Main */
+    
+.boxes {
+     border-width: 4.675em 4.650em 4.675em 4.650em;
+}      
+
+.boxes_text {
+    margin: -5% 0 -5% -9%;
+    padding: 2%; 
+}    
+    
+.boxes_text > .center_packages {
+    margin: 8% 5% 3% 5%;
+}         
+    
+.contact {
+    margin: 0;
+}
+
+.contact_text {
+    margin: -10% 0 -11% -6%;
+}
+
+.boxes_text p {
+     width: 90%;
+     margin: 5%;
+}     
+}
+
+/*** Up to 400px ***/
+@media only screen and (max-width: 25em) {
+
+body {
+    font-size: 78%;
+}
+    
+.rwd_break_880, .rwd_break_1040 {
+    display: none;
+}    
+    
+.boxes {
+     border-width: 4.075em 4.050em 4.075em 4.050em;
+}      
+}
+
+/*** Up to 336px ***/
+@media only screen and (max-width: 21em) {
+   
+body {
+    font-size: 70%;
+} 
+
+.boxes_text {
+    margin: -5% 0 -5% -11%;
+    padding: 4%; 
+}
+
+.contact_text {
+    margin: -10% 0 -11% -8%;
+}        
+    
+.boxes_text iframe {
+    padding: 6% 0;
+} 
+    
+.social li {
+    width: 40%;
+}    
+}
+
+/*** Up to 256px ***/
+@media only screen and (max-width: 16em) {
+   
+body {
+    font-size: 55%;
+} 
+    
+.boxes_text iframe {
+    padding: 8% 0;
+}     
+}
+
+/*** Up to 224px ***/
+@media only screen and (max-width: 14em) {
+
+body {
+    font-size: 50%;
+}      
 }
