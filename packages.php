@@ -102,11 +102,16 @@
 <div id="footer">
     <ul class="social">
         <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Ground Up Training: Fitness and Basketball Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
-        <li><a  href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up Training: Fitness and Basketball YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
+        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up Training: Fitness and Basketball YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
-    <p class="footer_text knewave">Site Design by <a href="http://invisionsdesign.com/">In Visions Design</a> and Development by <a href="http://codegreer.com/">Code Greer</a></p>   
+    <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
+    <p class="footer_text knewave">&#169; <?php $current_year=date("o");
+                    if ($current_year=="2016")
+                    echo "2016";
+                    else
+                    echo "2016 - $current_year"; ?> Code Greer. All rights reserved.</p>
 </div>  
-<!-- End Footer -->     
+<!-- End Footer -->       
     
 </div>
 <!-- End Content -->    

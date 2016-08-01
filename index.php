@@ -16,7 +16,7 @@
     <meta property="og:site_name" content="Ground Up Training">
     <meta property="og:url" content="http://fitnessandbasketball.com/" >
     <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://fitnessandbasketball.com/images/Logo_FB.png" >
+    <meta property="og:image" content="http://fitnessandbasketball.com/images/logo_FB.png" >
     <meta property="fb:app_id" content="" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
@@ -210,10 +210,10 @@
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
     <p class="footer_text knewave">&#169; <?php $current_year=date("o");
-                    if ($current_year=="2014")
-                    echo "2014";
+                    if ($current_year=="2016")
+                    echo "2016";
                     else
-                    echo "2014 - $current_year"; ?>, Code Greer. All rights reserved.</p>
+                    echo "2016 - $current_year"; ?> Code Greer. All rights reserved.</p>
 </div>  
 <!-- End Footer -->     
     
