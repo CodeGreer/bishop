@@ -14,11 +14,11 @@
 <!--Facebook-->
     <meta property="og:title" content="Helping to build better bodies from the ground up." >
     <meta property="og:site_name" content="Ground Up Training">
-    <meta property="og:url" content="http://fitnessandbasketball.com/" >
+    <meta property="og:url" content="http://groundupfitnessandbasketball.com/" >
     <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://fitnessandbasketball.com/images/logo_FB.png" >
+    <meta property="og:image" content="http://groundupfitnessandbasketball.com/images/logo_FB.png" >
     <meta property="fb:app_id" content="" >
-    <meta property="og:type" content="website" >
+    <meta property="og:type" content="http://groundupfitnessandbasketball.com/" >
     <meta property="og:locale" content="en-US" >
     
 <!--Twitter-->
@@ -26,8 +26,8 @@
     <meta property="twitter:title" content="Ground Up Training: Fitness and Basketball" >
     <meta property="twitter:description" content="Helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
-    <meta property="twitter:url" content="http://fitnessandbasketball.com/" >
-    <meta property="twitter:image" content="http://fitnessandbasketball.com/images/tw-logo.png" >
+    <meta property="twitter:url" content="http://groundupfitnessandbasketball.com/" >
+    <meta property="twitter:image" content="http://groundupfitnessandbasketball.com/images/tw-logo.png" >
     <meta property="twitter:image:alt" content="Ground Up Training: Fitness and Basketball logo" >
     
 <!-- Favicon -->
@@ -59,7 +59,7 @@
     
 <!-- Content -->      
 <div class="content">
-    <p class="contactus impact right black"><a data-scroll href="#contact">Contact Us</a></p>
+    <p class="contactus impact black"><a data-scroll href="#contact">Contact Us</a></p>
 
 <!-- Header -->   
     <div id="header">     
@@ -111,11 +111,23 @@
         <div class="boxes">
             <div class="boxes_text">
                 <img class="bruce" alt="Bruce Bishop, founder of Ground Up Training: Fitness and Basketball" src="images/Bruce.jpg">
-                <p>Bruce Bishop is certified in Personal Training, CPR and First aid and has knowledge of how to treat and prevent minor and major sports related injuries. He is very passionate about teaching others about the importance of exercise and fitness, conditioning, health and nutrition, and helping in the fight against childhood and adult obesity. Bruce Bishop started a basketball camp in 1998, which started with 4 kids who wanted to learn how to play basketball and it slowly grew to become a non profit organization with over 75 kids, boys and girls ages 10-17, a staff and volunteer base of 10 which received grants and donations for several years. The camp had it's final year in the summer of 2008.</p>
+                <p>Bruce Bishop is Certified by ACE and IYCA in Personal Training, Group Fitness, Strength and Conditioning, Functional Movement, CPR, First aid and is knowledgeable of how to treat and prevent minor and major sports related injuries. He is very passionate about teaching others about the importance of exercise and fitness, conditioning, health and nutrition, and helping in the fight against childhood and adult obesity.</p>
 
-                <p>Bruce Bishop has experience coordinating a summer basketball tournament of 13 teams implementing a fundamental basketball training program at an after school program as well as organizing several clinics. Bruce Bishop had the pleasure of working with Royal Ivey (Former NBA player for Oklahoma City and now Assistant Coach) and family on a basketball skills clinic from 2008-2013. Bruce Bishop has trained not only middle school, high school, professional basketball athletes but also football and track athletes and has worked at the following schools and organizations: Archbishop Molloy High School, Middle Village, NY, Francis Lewis High School, Bayside, NY, I Love Our Youth Basketball Association, Hollis, NY, St. Maryís High School, Manhasset, NY, ABCD Basketball Camp, Teaneck, NJ: Warwick High School, Virginia, NY Explosion AAU Basketball Team, Queens, NY, and Long Island Lightening AAU Basketball Team, Long Island, NY.</p> 
+                <p>Bishop played basketball in high school, college and went on to play 4 years of semi-pro and professional basketball.</p> 
 
-                <p>We will meet at your place or our place at Jack City Sports, 1152 Auburn Rd # 500, Dacula, GA 30019</p>
+                <p>Bishop started a basketball camp in 1998, which started with 4 kids who wanted to learn how to play basketball and it slowly grew to become a non profit organization with over 75 kids, boys and girls ages 10-17, a staff and volunteer base of 10 which received grants and donations for several years. The camp had it's final year in the summer of 2008.</p>
+                
+                <p>Bishop has experience coordinating a summer basketball tournament of 13 teams implementing a fundamental basketball training program at an after school program as well as organizing several clinics. Bruce Bishop had the pleasure of working with Royal Ivey (Former NBA player for Oklahoma City and now Assistant Coach) and family on a basketball skills clinic from 2008-2013.</p>
+                
+                <p>Bishop coached and trained Bishop Ford High School Girl's Team from 2011-2013 and led them to win the 2013 city and state championship.</p>
+                
+                <p>Bishop also had the privilege of training the Philippines National Olympic Team.</p>
+                
+                <p>Bishop has trained high level high school, college, and professional basketball players, men and women.</p>
+                
+                <p>Bishop has worked at the following schools and organizations: Archbishop Molloy High School, Middle Village, NY, Francis Lewis High School, Bayside, NY, I Love Our Youth Basketball Association, Hollis, NY, St. Mary's High School, Manhasset, NY, ABCD Basketball Camp, Teaneck, NJ: Warwick High School, Virginia, NY Explosion AAU Basketball Team, Queens, NY, and Long Island Lightening AAU Basketball Team, Long Island, NY.</p>
+                
+                <p>We will meet at your place or our place at <a href="https://www.google.com/maps/place/1152+Auburn+Rd+%23500,+Dacula,+GA+30019/@34.0317584,-83.9092597,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5eae9152685c7:0x94c48670c9e7aebb!8m2!3d34.031754!4d-83.907071">Jack City Sports, 1152 Auburn Rd #500, Dacula, GA 30019</a></p>
                 
                 <p class="impact top"><a data-scroll href="#menu">Top</a></p>
             </div>       
@@ -126,7 +138,7 @@
         <div class="boxes">
             <div class="boxes_text">
                 <p>Call: <a href="tel:917-224-5987">917-224-5987</a></p>
-                <p>Email: <a href="mailto:gutbballfit@gmail.com" target="_top">gutbballfit@gmail.com</a></p>
+                <p class="break">Email: <a href="mailto:bruce@groundupfitnessandbasketball.com" target="_top">bruce@groundupfitnessandbasketball.com</a></p>
                 
                 <p class="impact top"><a data-scroll href="#menu">Top</a></p>
             </div>       
@@ -140,7 +152,7 @@
                 
                 <p>Carbohydrates are the major source of fuel for muscles.  Athletes should consume high quality carbs throughout the day to maintain optimum energy levels.</p>
                 
-                <p>High quality carbs are whole wheat bread, oatmeal and barley (cereals), rice, potatoes, beans, dried fruit, and fresh fruit.</p>
+                <p>High quality carbs are whole wheat bread, oatmeal and barley (cereals), rice, quinoa, potatoes, beans, dried fruit, and fresh fruit.</p>
                 
                 <p>Consuming high quality lean protein throughout the day is essential for effective recovery and repair of damaged muscle tissue.</p>
                 
@@ -171,25 +183,26 @@
         <h1 id="videos"><span class="knewave">GROUND UP</span> <span class="impact orange">Videos</span></h1>
         <div class="boxes">
             <div id="desktop_videos" class="boxes_text">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SsnW0H1XlAA" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="325" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1717394108512475%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
                 
                 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tI0C79bCUgM" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="325" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1711154825803070%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
                 
                 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hGVPV-mXsL8" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="325" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1706052339646652%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
+                
             
                 <p class="impact top"><a data-scroll href="#menu">Top</a></p>
             </div>    
             
             <div id="mobile_videos" class="boxes_text">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/SsnW0H1XlAA" frameborder="0" allowfullscreen></iframe>
+                <iframe width="200" height="200" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1717394108512475%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
                 
                 
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tI0C79bCUgM" frameborder="0" allowfullscreen></iframe>
+                <iframe width="200" height="200" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1711154825803070%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
                 
                 
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/hGVPV-mXsL8" frameborder="0" allowfullscreen></iframe>
+                <iframe width="200" height="200" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbruce.bishop.58367%2Fvideos%2Fvb.100007257067507%2F1706052339646652%2F%3Ftype%3D3&show_text=0" frameborder="0" allowfullscreen></iframe>
                 
                 <p class="impact top"><a data-scroll href="#menu">Top</a></p>
             </div>   
@@ -205,7 +218,7 @@
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
-        <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Ground Up Training: Fitness and Basketball Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
+        <li><a href="https://www.facebook.com/groundupfitnessandbasketball/"><img class="social" alt="Ground Up Training: Fitness and Basketball Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
         <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up Training: Fitness and Basketball YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  

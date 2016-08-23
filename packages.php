@@ -29,7 +29,7 @@
     
 <!-- Content -->      
 <div class="content">
-    <p class="contactus impact right black"><a href="index.php#contact">Contact Us</a></p>
+    <p class="contactus impact black"><a href="index.php#contact">Contact Us</a></p>
     
 <!-- Header -->   
     <div id="header">     
@@ -85,7 +85,15 @@
                 <p><span class="knewave">Full time training package</span>: (in house) Two a days at a gym consisting of weight training, strength and conditioning, core work, and on court skill set training, personalized meal plan, meals prepared and/or delivered, and IQ increase by watching game film.</p>
 
                 <br>
-                <p><span class="knewave">PERSONAL TRAINING</span> prices will be discussed during initial consultation.  PAR- Questionnaire (Physical, activity, readiness) This test measures the minimal fitness for beginners to start a moderate intensity exercise program.</p>
+                <p><span class="knewave">PERSONAL TRAINING</span> PAR- Questionnaire (Physical, activity, readiness) This test measures the minimal fitness for beginners to start a moderate intensity exercise program.</p>
+                
+                <p><span class="knewave">12 weeks</span> (3 times per week/36 sessions) $1,500</p>
+                
+                <p><span class="knewave">16 weeks</span> (3 times per week/48 sessions) $1,700</p>
+                
+                <p><span class="knewave">24 weeks</span> (3 times per week/72 sessions) $2,550</p>
+                
+                <p>Payment plans available.</p>
 
                 <p class="impact center">Fitness Benefits - Better appearance, improved performance, good health, and a better quality of life.</p>
                 
