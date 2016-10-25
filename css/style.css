@@ -303,7 +303,7 @@ h1 {
 .boxes_text p {
     font-size: 1.15em;
     width: 96%;
-    margin: 2%;
+    margin: 0 2% 4%;
 }
 
 .break {

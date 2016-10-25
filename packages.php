@@ -65,20 +65,33 @@
                 <br>
                 
                 <p id="anchor" class="impact">PACKAGES ARE AS FOLLOWS:</p>
-                <p>1 1/2 hour private lesson: $75 per lesson</p>
+                <p>1 1/2 hour semi-private lesson: $60 per lesson</p>
 
-                <p><span class="knewave">Option 1:</span>  Basic Fundamental Skill Package<br>Includes: Shooting, Dribbling, Passing, and Defense<br>$650 (8 sessions -- 1 1/2 hr long --2-3 days a week)</p>
-
-
-                <p><span class="knewave">Option 2:</span>  Fundamentally Sound Package<br>Includes: Speed, Agility, Quickness, Balance and Coordination, Power, Flexibility, Condition, Vertical jump and skill set fundamentals<br>$750 (16 sessions -- 1 1/2 hr long -- 2-3 days a week)</p>
-
-
-                <p><span class="knewave">Option 3:</span> Complete Player Package<br>Includes: Complete training, Weight Room , Functional Movement, Skill Set Fundamentals, Game Speed, Offensive and Defensive sets, How to read film and scout opponents, and IQ increase<br>$850 (24 sessions -- 1 1/2 hr long --2-3 days a week)</p>
+                <p><span class="knewave">Option 1:</span>  Basic Fundamental Skill Package<br>Includes: Shooting, Dribbling, Passing, and Defense</p>
+                    
+                <p>$400 -- 8 sessions -- 1 1/2 hr long (2 1/2 weeks at 3 days per week or 4 weeks at 2 days per week) PAYMENT PLAN AVAILABLE</p>
 
 
+                <p><span class="knewave">Option 2:</span>  Fundamentally Sound Package<br>Includes: Basic fundamental skills, Speed, Agility, Quickness, Balance and Coordination, Power, Flexibility, Conditioning, and Vertical jump</p>
+                    
+                <p>$800 --16 sessions -- 1 1/2 hr long (6 weeks at 3 days per week or 8 weeks at 2 days per week) PAYMENT PLAN AVAILABLE</p>
+
+
+                <p><span class="knewave">Option 3:</span> Complete Player Package<br>Includes: Complete training, Basic fundamental skills, Speed, Agility, Quickness, Balance and Coordination, Power, Flexibility, Conditioning, Vertical jump, skill set fundamentals, Weight Room, Functional Movement,  Game Speed, Offensive and Defensive sets, How to read film and scout opponents, IQ increase, and Vertimax training</p>
+                
+                <p>$1200 -- 24 sessions -- 1 1/2 hr long (10 weeks at 3 days per week or 12 weeks at 2 days per week)  PAYMENT PLAN AVAILABLE</p>
+
+                <br>
+                
+                <p><span class="knewave">Pro-Training</span>
+                    
+                <p>Includes: Complete training, Weight Room, Functional Movement, Skill Set Fundamentals, Foot work, Pool workouts,  How to read film and scout opponents, IQ increase, and Vertimax training.</p>
+                
+                <p>$1500 -- 24 session 1 1/2 hr long (10 weeks at 3 days per week or 12 weeks at 2 days per week) PAYMENT PLAN AVAILABLE</p>
+                
                 <p>All players must be dedicated to give 100% during each workout. Ask questions and work on things when not training will help you become better and improve faster.</p>
 
-                <p><span class="knewave">Semi-Private</span> -- 2 - 4 kids<br>1 1/2 hour semi-private lesson: $100 total</p>
+               <!-- <p><span class="knewave">Semi-Private</span> -- 2 - 4 kids<br>1 1/2 hour semi-private lesson: $100 total</p>
 
                 <p><span class="knewave">Team Training</span><br>1 1/2 hour team training: $15 per person (10 person minimum)</p>
                 
@@ -95,7 +108,7 @@
                 
                 <p>Payment plans available.</p>
 
-                <p class="impact center">Fitness Benefits - Better appearance, improved performance, good health, and a better quality of life.</p>
+                <p class="impact center">Fitness Benefits - Better appearance, improved performance, good health, and a better quality of life.</p> -->
                 
                 <br>
                 <p class="impact top"><a href="index.php">Home</a></p>
