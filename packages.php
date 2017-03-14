@@ -8,6 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
+<!--Facebook-->
+    <meta property="og:title" content="Ground Up Training: Packages" >
+    <meta property="og:site_name" content="Ground Up Training">
+    <meta property="og:url" content="http://groundupfitnessandbasketball.com/packages.php" >
+    <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
+    <meta property="og:image" content="http://groundupfitnessandbasketball.com/images/logo_FB.png" >
+    <meta property="fb:app_id" content="" >
+    <meta property="og:type" content="website" >
+    <meta property="og:locale" content="en-US" >
+    
+<!--Twitter-->
+    <meta property="twitter:card" content="summary" >
+    <meta property="twitter:title" content="Ground Up Training: Packages" >
+    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
+    <meta property="twitter:creator" content="" >
+    <meta property="twitter:url" content="http://groundupfitnessandbasketball.com/packages.php" >
+    <meta property="twitter:image" content="http://groundupfitnessandbasketball.com/images/tw-logo.png" >
+    <meta property="twitter:image:alt" content="Ground Up Training: Fitness and Basketball logo" >
+    
+<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">    
+    
 <!-- CSS -->
 	<link rel="stylesheet" href="css/style.min.css" />
 
@@ -33,7 +60,7 @@
     
 <!-- Header -->   
     <div id="header">     
-        <a href="index.php"><img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/2-Bishop-logo.png"></a>  
+        <a href="index.php"><img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/Bishop-logo.png"></a>  
             
     </div>     
 <!-- End Header -->   

@@ -12,19 +12,19 @@
 
     
 <!--Facebook-->
-    <meta property="og:title" content="Helping to build better bodies from the ground up." >
+    <meta property="og:title" content="Ground Up Training: Fitness and Basketball" >
     <meta property="og:site_name" content="Ground Up Training">
     <meta property="og:url" content="http://groundupfitnessandbasketball.com/" >
     <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
     <meta property="og:image" content="http://groundupfitnessandbasketball.com/images/logo_FB.png" >
     <meta property="fb:app_id" content="" >
-    <meta property="og:type" content="http://groundupfitnessandbasketball.com/" >
+    <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
     
 <!--Twitter-->
     <meta property="twitter:card" content="summary" >
     <meta property="twitter:title" content="Ground Up Training: Fitness and Basketball" >
-    <meta property="twitter:description" content="Helping to build better bodies from the ground up." >
+    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
     <meta property="twitter:url" content="http://groundupfitnessandbasketball.com/" >
     <meta property="twitter:image" content="http://groundupfitnessandbasketball.com/images/tw-logo.png" >
@@ -63,7 +63,7 @@
 
 <!-- Header -->   
     <div id="header">     
-        <img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/2-Bishop-logo.png">  
+        <img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/Bishop-logo.png">  
   
 <!-- Menu -->  
         <div id="menu">
