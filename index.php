@@ -3,32 +3,32 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     
-    <title>Ground Up Training: Fitness and Basketball | Atlanta</title>
+    <title>Ground Up: Fitness and Basketball Training | Atlanta</title>
 
-    <link rel="canonical" href="http://fitnessandbasketball.com/">
+    <link rel="canonical" href="http://groundupfitandball.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="training, basketball, fitness, work out, sports, conditioning, strength training, exercise, Atlanta, Georgia" >
-    <meta name="description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up.">
+    <meta name="description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up.">
 
     
 <!--Facebook-->
-    <meta property="og:title" content="Ground Up Training: Fitness and Basketball" >
+    <meta property="og:title" content="Ground Up: Fitness and Basketball Training" >
     <meta property="og:site_name" content="Ground Up Training">
-    <meta property="og:url" content="http://groundupfitnessandbasketball.com/" >
-    <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://groundupfitnessandbasketball.com/images/logo_FB.png" >
+    <meta property="og:url" content="http://groundupfitandball.com/" >
+    <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
+    <meta property="og:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
     <meta property="fb:app_id" content="" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
     
 <!--Twitter-->
     <meta property="twitter:card" content="summary" >
-    <meta property="twitter:title" content="Ground Up Training: Fitness and Basketball" >
-    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
+    <meta property="twitter:title" content="Ground Up: Fitness and Basketball Training" >
+    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
-    <meta property="twitter:url" content="http://groundupfitnessandbasketball.com/" >
-    <meta property="twitter:image" content="http://groundupfitnessandbasketball.com/images/tw-logo.png" >
-    <meta property="twitter:image:alt" content="Ground Up Training: Fitness and Basketball logo" >
+    <meta property="twitter:url" content="http://groundupfitandball.com/" >
+    <meta property="twitter:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
+    <meta property="twitter:image:alt" content="Ground Up: Fitness and Basketball Training logo" >
     
 <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -63,21 +63,21 @@
 
 <!-- Header -->   
     <div id="header">     
-        <img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/Bishop-logo.png">  
+        <img class="logo" alt="Ground Up: Fitness and Basketball Training logo" src="images/Bishop-logo.png">  
   
 <!-- Menu -->  
         <div id="menu">
-            <img class="menu_background" alt="Ground Up Training: Fitness and Basketball menu background image of a basketball court" src="images/3-Bishop-court.png">
+            <img class="menu_background" alt="Ground Up: Fitness and Basketball Training menu background image of a basketball court" src="images/3-Bishop-court.png">
 
-            <a data-scroll href="#training"><img class="Ground Up Training: Fitness and Basketball training star link" alt="Training" src="images/7-Bishop-menu-training.png"></a>
+            <a data-scroll href="#training"><img class="Ground Up: Fitness and Basketball training star link" alt="Training" src="images/7-Bishop-menu-training.png"></a>
             
-            <a href="packages.php"><img class="Ground Up Training: Fitness and Basketball packages star link" alt="Packages" src="images/7-Bishop-menu-packages.png"></a>
+            <a href="packages.php"><img class="Ground Up: Fitness and Basketball packages star link" alt="Packages" src="images/7-Bishop-menu-packages.png"></a>
             
-            <a data-scroll href="#about"><img class="Ground Up Training: Fitness and Basketball about star link" alt="About Us" src="images/7-Bishop-menu-AboutUs.png"></a>
+            <a data-scroll href="#about"><img class="Ground Up: Fitness and Basketball about star link" alt="About Us" src="images/7-Bishop-menu-AboutUs.png"></a>
             
-            <a data-scroll href="#videos"><img class="Ground Up Training: Fitness and Basketball videos star link" alt="Videos" src="images/7-Bishop-menu-videos.png"></a>
+            <a data-scroll href="#videos"><img class="Ground Up: Fitness and Basketball videos star link" alt="Videos" src="images/7-Bishop-menu-videos.png"></a>
             
-            <a data-scroll href="#resources"><img class="Ground Up Training: Fitness and Basketball resources star link" alt="Resources" src="images/7-Bishop-menu-resources.png"></a>
+            <a data-scroll href="#resources"><img class="Ground Up: Fitness and Basketball resources star link" alt="Resources" src="images/7-Bishop-menu-resources.png"></a>
         </div>
 <!-- End Menu -->
             
@@ -110,7 +110,7 @@
         <h1 id="about"><span class="knewave">GROUND UP</span> <span class="impact orange">About Us</span></h1>
         <div class="boxes">
             <div class="boxes_text">
-                <img class="bruce" alt="Bruce Bishop, founder of Ground Up Training: Fitness and Basketball" src="images/Bruce.jpg">
+                <img class="bruce" alt="Bruce Bishop, founder of Ground Up: Fitness and Basketball Training" src="images/Bruce.jpg">
                 <p>Bruce Bishop is Certified by ACE and IYCA in Personal Training, Group Fitness, Strength and Conditioning, Functional Movement, CPR, First aid and is knowledgeable of how to treat and prevent minor and major sports related injuries. He is very passionate about teaching others about the importance of exercise and fitness, conditioning, health and nutrition, and helping in the fight against childhood and adult obesity.</p>
 
                 <p>Bishop played basketball in high school, college and went on to play 4 years of semi-pro and professional basketball.</p> 
@@ -218,8 +218,8 @@
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
-        <li><a href="https://www.facebook.com/groundupfitnessandbasketball/"><img class="social" alt="Ground Up Training: Fitness and Basketball Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
-        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up Training: Fitness and Basketball YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
+        <li><a href="https://www.facebook.com/groundupfitnessandbasketball/"><img class="social" alt="Ground Up: Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
+        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up: Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
     <p class="footer_text knewave">&#169; <?php $current_year=date("o");

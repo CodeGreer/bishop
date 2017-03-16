@@ -11,9 +11,9 @@
 <!--Facebook-->
     <meta property="og:title" content="Ground Up Training: Packages" >
     <meta property="og:site_name" content="Ground Up Training">
-    <meta property="og:url" content="http://groundupfitnessandbasketball.com/packages.php" >
-    <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://groundupfitnessandbasketball.com/images/logo_FB.png" >
+    <meta property="og:url" content="http://groundupfitandball.com/packages.php" >
+    <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
+    <meta property="og:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
     <meta property="fb:app_id" content="" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
@@ -21,11 +21,11 @@
 <!--Twitter-->
     <meta property="twitter:card" content="summary" >
     <meta property="twitter:title" content="Ground Up Training: Packages" >
-    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, Ground Up Training: Fitness and Basketball is helping to build better bodies from the ground up." >
+    <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
-    <meta property="twitter:url" content="http://groundupfitnessandbasketball.com/packages.php" >
-    <meta property="twitter:image" content="http://groundupfitnessandbasketball.com/images/tw-logo.png" >
-    <meta property="twitter:image:alt" content="Ground Up Training: Fitness and Basketball logo" >
+    <meta property="twitter:url" content="http://groundupfitandball.com/packages.php" >
+    <meta property="twitter:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
+    <meta property="twitter:image:alt" content="Ground Up: Fitness and Basketball Training logo" >
     
 <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -60,7 +60,7 @@
     
 <!-- Header -->   
     <div id="header">     
-        <a href="index.php"><img class="logo" alt="Ground Up Training: Fitness and Basketball logo" src="images/Bishop-logo.png"></a>  
+        <a href="index.php"><img class="logo" alt="Ground Up: Fitness and Basketball Training logo" src="images/Bishop-logo.png"></a>  
             
     </div>     
 <!-- End Header -->   
@@ -149,8 +149,8 @@
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
-        <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Ground Up Training: Fitness and Basketball Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
-        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up Training: Fitness and Basketball YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
+        <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Ground Up: Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
+        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up: Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
     <p class="footer_text knewave">&#169; <?php $current_year=date("o");
