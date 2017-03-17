@@ -138,7 +138,7 @@
         <div class="boxes">
             <div class="boxes_text">
                 <p>Call: <a href="tel:917-224-5987">917-224-5987</a></p>
-                <p class="break">Email: <a href="mailto:bruce@groundupfitnessandbasketball.com" target="_top">bruce@groundupfitnessandbasketball.com</a></p>
+                <p class="break">Email: <a href="mailto:groundupfitandball@gmail.com" target="_top">groundupfitandball@gmail.com</a></p>
                 
                 <p class="impact top"><a data-scroll href="#menu">Top</a></p>
             </div>       
