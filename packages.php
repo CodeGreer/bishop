@@ -3,29 +3,29 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     
-    <title>Packages | Ground Up Training</title>
+    <title>Packages | Fit One Ball - Fitness and Basketball Training</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
 <!--Facebook-->
-    <meta property="og:title" content="Ground Up Training: Packages" >
-    <meta property="og:site_name" content="Ground Up Training">
-    <meta property="og:url" content="http://groundupfitandball.com/packages.php" >
+    <meta property="og:title" content="Fit One Ball Training: Packages" >
+    <meta property="og:site_name" content="Fit One Ball - Fitness and Basketball Training">
+    <meta property="og:url" content="http://www.fitoneball.com/packages.php" >
     <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
+    <meta property="og:image" content="http://www.fitoneball.com/images/Bishop-twitter.png" >
     <meta property="fb:app_id" content="" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
     
 <!--Twitter-->
     <meta property="twitter:card" content="summary" >
-    <meta property="twitter:title" content="Ground Up Training: Packages" >
+    <meta property="twitter:title" content="Fit One Ball Training: Packages" >
     <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
-    <meta property="twitter:url" content="http://groundupfitandball.com/packages.php" >
-    <meta property="twitter:image" content="http://groundupfitandball.com/images/Bishop-twitter.png" >
-    <meta property="twitter:image:alt" content="Ground Up: Fitness and Basketball Training logo" >
+    <meta property="twitter:url" content="http://www.fitoneball.com/packages.php" >
+    <meta property="twitter:image" content="http://www.fitoneball.com/images/Bishop-twitter.png" >
+    <meta property="twitter:image:alt" content="Fit One Ball - Fitness and Basketball Training logo" >
     
 <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -60,7 +60,7 @@
     
 <!-- Header -->   
     <div id="header">     
-        <a href="index.php"><img class="logo" alt="Ground Up: Fitness and Basketball Training logo" src="images/Bishop-logo.png"></a>  
+        <a href="index.php"><img class="logo" alt="Fit One Ball - Fitness and Basketball Training logo" src="images/Bishop-logo.png"></a>  
             
     </div>     
 <!-- End Header -->   
@@ -68,7 +68,7 @@
 <!-- Main -->     
     <div id="main">
         <br>
-        <h1><span class="knewave">GROUND UP</span> <span class="impact orange">Training</span></h1>
+        <h1><span class="knewave">FIT ONE BALL</span> <span class="impact orange">Training</span></h1>
         <div class="boxes">
             <div class="boxes_text">
                 <p class="impact center_packages">We use the Vertimax Training System...<span class="rwd_break_1040"><br></span>proven to improve your game!!</p>
@@ -76,7 +76,7 @@
 
                 <br>
                 
-                <p>Ground Up Training are available to provide one on one and team basketball training for all skill levels: junior high, high school, college and pros.  If you want to improve your game, you need to know your weaknesses.</p>  
+                <p>Fit One Ball is available to provide one on one and team basketball training for all skill levels: junior high, high school, college and pros.  If you want to improve your game, you need to know your weaknesses.</p>  
 
                 <p>The training is more than just basketball. We set you up with a schedule for your academics as well as break down your game.</p>
 
@@ -149,8 +149,8 @@
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
-        <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Ground Up: Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
-        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Ground Up: Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
+        <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Fit One Ball - Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
+        <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Fit One Ball - Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
     <p class="footer_text knewave">&#169; <?php $current_year=date("o");
