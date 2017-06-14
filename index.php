@@ -218,7 +218,7 @@
 <!-- Footer -->      
 <div id="footer">
     <ul class="social">
-        <li><a href="https://www.facebook.com/groundupfitnessandbasketball/"><img class="social" alt="Fit One Ball - Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
+        <li><a href="https://www.facebook.com/fitoneball/"><img class="social" alt="Fit One Ball - Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
         <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Fit One Ball - Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
     <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">CodeGreer</a></p>  
