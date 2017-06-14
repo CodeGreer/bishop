@@ -13,7 +13,7 @@
     <meta property="og:site_name" content="Fit One Ball - Fitness and Basketball Training">
     <meta property="og:url" content="http://www.fitoneball.com/packages.php" >
     <meta property="og:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
-    <meta property="og:image" content="http://www.fitoneball.com/images/Bishop-twitter.png" >
+    <meta property="og:image" content="" >
     <meta property="fb:app_id" content="" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en-US" >
@@ -24,7 +24,7 @@
     <meta property="twitter:description" content="Whether your goal is to be a complete player or to establish a more fit and healthy lifestyle, we are helping to build better bodies from the ground up." >
     <meta property="twitter:creator" content="" >
     <meta property="twitter:url" content="http://www.fitoneball.com/packages.php" >
-    <meta property="twitter:image" content="http://www.fitoneball.com/images/Bishop-twitter.png" >
+    <meta property="twitter:image" content="" >
     <meta property="twitter:image:alt" content="Fit One Ball - Fitness and Basketball Training logo" >
     
 <!-- Favicon -->
@@ -60,7 +60,7 @@
     
 <!-- Header -->   
     <div id="header">     
-        <a href="index.php"><img class="logo" alt="Fit One Ball - Fitness and Basketball Training logo" src="images/Bishop-logo.png"></a>  
+        <a href="index.php"><img class="logo" alt="Fit One Ball - Fitness and Basketball Training logo" src="images/logo.png"></a>  
             
     </div>     
 <!-- End Header -->   
@@ -152,12 +152,12 @@
         <li><a href="https://www.facebook.com/bruce.bishop.58367"><img class="social" alt="Fit One Ball - Fitness and Basketball Training Facebook link" src="images/8-Bishop-Icons-FB.png"></a></li>
         <li><a href="https://www.youtube.com/user/grounduptrainin/videos"><img class="social" alt="Fit One Ball - Fitness and Basketball Training YouTube link" src="images/8-Bishop-Icons-YouTube.png"></a></li>
     </ul>
-    <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">Code Greer</a></p>  
+    <p class="footer_text knewave">Website by <a href="http://invisionsdesign.com/">In Visions Design</a> &amp; <a href="http://codegreer.com/">CodeGreer</a></p>  
     <p class="footer_text knewave">&#169; <?php $current_year=date("o");
                     if ($current_year=="2016")
                     echo "2016";
                     else
-                    echo "2016 - $current_year"; ?> Code Greer. All rights reserved.</p>
+                    echo "2016 - $current_year"; ?> CodeGreer. All rights reserved.</p>
 </div>  
 <!-- End Footer -->       
     
