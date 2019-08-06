@@ -155,32 +155,38 @@ a {
 
 .training {
     position: absolute;
-    top: 17%;
+    top: 10%;
     left: 28%; 
 }
 
 .packages {
     position: absolute;
-    top: 14%;
+    top: 4%;
     left: 57%; 
 }
 
 .about {
     position: absolute;
-    top: 50%;
-    left: 27%; 
+    top: 55%;
+    left: 25%; 
+}
+
+.register {
+    position: absolute;
+    top: 35%;
+    left: 38%;
 }
 
 .videos {
     position: absolute;
     top: 54%;
-    left: 48%; 
+    left: 50%; 
 }
 
 .resources {
     position: absolute;
-    top: 46%;
-    left: 65%;
+    top: 35%;
+    left: 63%;
 }
 
 /* Main */
@@ -308,6 +314,29 @@ h1 {
 
 .break {
     overflow-wrap: break-word;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.button {
+    text-align: center;
+    max-width: 40%;
+    margin: 0 30%;
+    padding: 1em 0;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #Bc5235;
+    border: 3px solid #Bc5235;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #Bc5235;
+    color: #FFFFFF;
 }
 
 /* Footer */ 
