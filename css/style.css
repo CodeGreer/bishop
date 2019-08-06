@@ -583,9 +583,13 @@ body {
     top: 50%;
     left: 10%; 
 }
+    
+.register {
+    top: 20%;
+}    
 
 .videos {
-    top: 46%;
+    top: 50%;
     left: 40%; 
 }
 
@@ -683,9 +687,13 @@ body {
     top: 50%;
     left: 12%; 
 }
+    
+.register {
+    top: 10%;
+}     
 
 .videos {
-    top: 28%;
+    top: 43%;
     left: 35%; 
 }
 
