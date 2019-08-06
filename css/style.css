@@ -52,12 +52,21 @@ input, select { vertical-align: middle; }
 @font-face {
     font-family: Impact;
     src: url(../fonts/impact.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: BellGothic;
     src: url(../fonts/BellGothicStd-Bold.otf);
+    font-display: swap;
 }
+
+@font-face {
+    font-family: Knewave;
+    src: url(../fonts/Knewave-Regular.ttf);
+    font-display: swap;
+}
+
 
 html {
     font: normal 100% 'BellGothic', sans-serif;
