@@ -325,6 +325,10 @@ h1 {
     overflow-wrap: break-word;
 }
 
+.flyer {
+    max-width: 100%;
+}
+
 .flex {
     display: flex;
     flex-flow: column;
