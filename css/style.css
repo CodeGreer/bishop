@@ -181,9 +181,10 @@ a {
 }
 
 .register {
+    width: 20%;
     position: absolute;
-    top: 35%;
-    left: 38%;
+    top: 22%;
+    left: 35%;
 }
 
 .videos {
@@ -598,7 +599,8 @@ body {
 }
     
 .register {
-    top: 20%;
+    width: 30%;
+    top: 18%;
 }    
 
 .videos {
@@ -702,6 +704,7 @@ body {
 }
     
 .register {
+    width: 30%;
     top: 10%;
 }     
 
